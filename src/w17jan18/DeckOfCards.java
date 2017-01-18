@@ -36,6 +36,20 @@ public class DeckOfCards {
         Collections.shuffle(deck);
     }
     
+    /**
+     * This method will "deal" the top card off the deck
+     * and return it to the calling function
+     * @return 
+     */
+    public Card dealTopCard()
+    {
+        if (deck.size() > 0)
+            return deck.remove(0);
+        else
+            return null;
+    }
+    
+    
     @Override
     public String toString()
     {
