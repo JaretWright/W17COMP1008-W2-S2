@@ -1,6 +1,7 @@
 package w17jan18;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  *
@@ -27,6 +28,14 @@ public class DeckOfCards {
         }
     }
     
+    /**
+     * This shuffles the deck of cards
+     */
+    public void shuffle()
+    {
+        Collections.shuffle(deck);
+    }
+    
     @Override
     public String toString()
     {
@@ -37,5 +46,5 @@ public class DeckOfCards {
         }
         return deckString;
     }
-    
+
 }

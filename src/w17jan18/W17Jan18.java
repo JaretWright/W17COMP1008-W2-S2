@@ -12,6 +12,9 @@ public class W17Jan18 {
      */
     public static void main(String[] args) {
         System.out.println("Hello GitHub world!!");
+        
+        GameOfWar theGame = new GameOfWar();
+        
     }
     
 }
